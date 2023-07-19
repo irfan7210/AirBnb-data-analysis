@@ -32,6 +32,7 @@ By examining the variables related to property features, host information, neigh
 Ultimately, the objective is to provide actionable recommendations and insights derived from the data analysis that can empower Airbnb hosts in NYC to enhance their business performance and achieve sustainable growth.
 
 **About Data Set**
+
 Link: https://www.kaggle.com/datasets/dgomonov/new-york-city-airbnb-open-data
 
 Since 2008, guests and hosts have used Airbnb to expand on traveling possibilities and present a more unique, personalized way of experiencing the world. Today, Airbnb has become one of a kind service that is used and recognized by the whole world. Data analysis on millions of listings provided through Airbnb is a crucial factor for the company. These millions of listings generate a lot of data that can be analyzed and used for security, business decisions, understanding of customers' and providers' (hosts') behavior and performance on the platform, guiding marketing initiatives, implementation of innovative additional services, and much more. This dataset has around 49,000 observations with 16 columns, and it is a mix of categorical and numeric values.
@@ -63,7 +64,79 @@ These variables provide key information about each premise, including its unique
 By analyzing these variables, we can gain insights into various aspects of the Airbnb listings, host activity, guest preferences, and geographic distribution, enabling us to uncover valuable information and patterns within the dataset.
 
 
-**Data Wrangling and Vizualization**
+**Data Wrangling and visualization**
 
 
+Data wrangling, also known as data preprocessing or data cleaning, refers to the process of transforming and preparing raw data into a suitable format for analysis. It involves cleaning, organizing, and transforming data to ensure its quality, consistency, and compatibility with the analytical tasks at hand.
 
+Data visualization is the process of representing data and information graphically to facilitate understanding, exploration, and communication of insights. It involves creating visual representations such as charts, graphs, maps, and infographics to effectively convey patterns, trends, relationships, and comparisons present in the data.
+
+
+The dataset contains 7894 unique properties with 16 variables/features. The focus is on analyzing the physical features, facilities, and their relationship with top listing prices. Key variables of interest include room type, property type, price, host, location, and reviews.
+
+The dataset has null values in the "last_review" and "reviews_per_month" columns, which are subsequently dropped. There are 11452 unique hosts registered in the dataset, with multiple properties associated with each host. Sonder (NYC) is the most registered host, followed by Blueground, Kara, and Kazuya. The calculated host listing count reveals that Manhattan has the highest number of registered hosts, followed by Brooklyn, Queens, Bronx, and Staten Island.
+
+Brooklyn is the most reviewed neighborhood, followed by Manhattan, Queens, and Bronx, with Staten Island having the fewest reviews. Although price information does not provide significant insights about neighborhood groups, the highly reviewed places tend to be more expensive.
+
+Further analysis indicates that Manhattan has the highest number of properties, followed by Brooklyn, Queens, Bronx, and Staten Island. Private rooms are the most preferred room type, followed by entire home/apartment, while shared rooms have the fewest listings. In Manhattan, entire home/apartment properties are the most popular, while in other neighborhoods, private rooms dominate. As a result, entire home/apartment listings tend to be the most expensive (around $211), followed by private rooms (around $89), with shared rooms being the cheapest option (around $70). Manhattan is the most expensive neighborhood, followed by Staten Island and Brooklyn, while the Bronx is the least expensive.
+
+The analysis includes various types of charts such as pie charts, bar plots, stack plots, distribution plots, pair plots, and scatter plots to visually represent the data and gain insights.
+
+In conclusion, Manhattan and Brooklyn are the most popular neighborhood groups based on the number of host listings, percentage of unique hosts, and reviews. Manhattan stands out as the costliest and most popular area.
+
+**Solution to Business Objective:**
+
+To address the business objective of helping hosts grow their Airbnb business, the following solutions can be implemented:
+
+1. Regularly monitor and respond to customer reviews to make necessary improvements and upgrades to the rooms based on feedback.
+
+2. Follow the business practices of top active hosts as a benchmark for success and learn from their strategies.
+
+3. Focus on offering private rooms and entire home/apartments as they have high demand among guests.
+
+4. Set the prices of premises within the average range for each room type in the respective neighborhood group to attract more bookings.
+
+5. Keep an eye on nearby host premises to monitor any special offers or promotions they may be providing to visitors. Adjust pricing and offerings accordingly to remain competitive.
+
+6. Pay attention to the location of the premises and identify which room types are in high demand in specific areas. Tailor the offerings accordingly to attract more bookings.
+
+7. For new hosts, consider opening premises in the Manhattan neighborhood group, as it generates the highest number of bookings and revenue compared to other neighborhood groups.
+
+8. Consider adding premises to the Staten Island neighborhood group, as there is less competition and a lower number of listings available, presenting a favorable opportunity for hosts.
+
+9. Maintain a high rating by providing excellent customer service in addition to competitive pricing. Ensuring customer satisfaction will contribute to positive reviews and attract more bookings.
+
+10. Stay updated with market trends and competitors to remain competitive in the dynamic Airbnb business landscape. Regularly analyze and adjust strategies to meet changing guest preferences and demands.
+
+By implementing these solutions, hosts can enhance their Airbnb business, attract more bookings, and provide a great experience for guests, leading to growth and success in the industry.
+
+
+**Conclusion:**
+
+The analysis reveals several key findings:
+
+1. Manhattan is the busiest neighborhood, followed by Brooklyn, indicating high demand for Airbnb bookings in these areas.
+
+2. Manhattan has the highest number of registered hosts based on the host listing count, indicating a significant presence of hosts in this neighborhood.
+
+3. Brooklyn has the maximum number of unique hosts currently booked in the dataset, making it an attractive destination for visitors.
+
+4. Visitors show a preference for private rooms and entire home/apartments, with a higher preference for entire home/apartments.
+
+5. Rooms with lower prices tend to receive more reviews and bookings, indicating that affordability plays a role in guests' decision-making.
+
+6. Although entire home/apartments are the most expensive room type, they remain popular among guests. Conversely, shared rooms, despite being the cheapest option, are less preferred.
+
+7. Premises in Manhattan receive the most positive reviews, closely followed by Brooklyn, highlighting their popularity among guests.
+
+8. Manhattan and Brooklyn are the most expensive neighborhoods, with the Bronx being the least expensive. However, guests still prefer staying in Manhattan and Brooklyn.
+
+9. Revenue generation is highest in Manhattan, followed by Brooklyn, indicating the profitability of hosting in these neighborhoods.
+
+10. On average, guests spend $212 on entire home/apartments, $90 on private rooms, and $70 on shared rooms.
+
+Based on these insights, it is evident that Manhattan and Brooklyn are highly attractive destinations for tourists, and from a business perspective, they present favorable opportunities for hosts to succeed in the Airbnb market. Hosts should consider the preferences of guests, maintain competitive pricing, and provide excellent service to capitalize on the popularity of these neighborhoods.
+
+
+We have reached almost the end of this project. In this project, we analyzed almost every column or variable of the data set. In this, we have done data wrangling that is checking or removing null values and checking for unique values and names.
+We have analyzed almost every possible problem statement related to the dataset so that the client can easily understand the data set.

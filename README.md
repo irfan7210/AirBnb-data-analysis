@@ -1,5 +1,7 @@
 # AirBnb-data-analysis
 
+Tableau dashboard link: https://public.tableau.com/views/FinalAirbnbDataAnalysis_16898779007160/FinalAirbnbDataAnalysis2?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link
+
 **Project summary:**
 
 Airbnb stands for 'Air Bed and Breakfast', and it is an online service that lets property owners rent out their premises, houses, or places to travelers looking for a place to stay. The prices of Airbnb premises are comparatively cheaper than hotels. And it allows the owner to fix the price of premises for the traveler. These days' people are preferring Airbnb to stay instead of expensive and luxurious hotels. In this growing industry, there is a lot of competition among hosts, all hosts want to make their listings attractive, and it is difficult for some hosts to make their listings attractive. Using data science, we make this problem quite simple by collecting lots of data and analyzing it using python's libraries (i.e., pandas, numpy, seaborn, and matplotlib). This analysis helps us to attract customers and give them world-class service at their level, and so different types of factors like price, area, reviews, and services affect their choices. Here, we will analyze the data and try to make a correlation between different variables, and find the relation between top listings so that in the future a host can take business decisions using these insights gained after EDA.
